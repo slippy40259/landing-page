@@ -15,10 +15,38 @@ body {
     color: #F9FAF8;
 }
 
-a {
-    text-decoration: none;
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 90px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding-left: 50px;
+}
+
+.right {
+    width: 450px;
+    background-color: #F9FAF880;
+}
+
+.primary {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
@@ -27,4 +55,13 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px;
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 120px;
+    height: 30px;
 }
