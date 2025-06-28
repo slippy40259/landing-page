@@ -47,7 +47,7 @@ body {
     font-weight: 900;
 }
 
-.container {
+.info-container {
     margin-top: 32px;
     display: flex;
     gap: 32px;
@@ -74,6 +74,32 @@ body {
 .secondary {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.quote-section {
+    display: flex;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 50px;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    width: 777px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.speaker {
+    display: flex;
+    font-size: 18px;
+    justify-content: flex-end;
 }
 
 img {
