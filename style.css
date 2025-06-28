@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto';
 }
 
-.header {
+.header, .footer {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
@@ -22,14 +22,19 @@ body {
     padding: 90px;
 }
 
-.left {
+.footer {
+    padding: 50px;
+    margin-top: auto;
+}
+
+.left-hero {
     display: flex;
     flex-direction: column;
     width: 450px;
     padding-left: 50px;
 }
 
-.right {
+.right-hero {
     width: 450px;
     background-color: #F9FAF880;
 }
@@ -100,6 +105,26 @@ body {
     display: flex;
     font-size: 18px;
     justify-content: flex-end;
+}
+
+.banner {
+    margin: 90px auto;
+    padding: 32px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    width: 728px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-banner {
+    color: #E5E7EB;
+}
+
+.outlined {
+    border-color: #E5E7EB;
+    border: solid;
 }
 
 img {
