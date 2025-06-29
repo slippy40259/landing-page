@@ -1,8 +1,10 @@
 body {
     font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
 }
 
-.header, .footer {
+.header, .footer, .hero {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
@@ -16,9 +18,7 @@ body {
 }
 
 .hero {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-around;
+    align-items: normal;
     padding: 90px;
 }
 
@@ -32,6 +32,7 @@ body {
     flex-direction: column;
     width: 450px;
     padding-left: 50px;
+    gap: 16px;
 }
 
 .right-hero {
@@ -59,8 +60,11 @@ body {
 }
 
 .content {
+    display: flex;
     width: 150px;
     text-align: center;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .img-info {
